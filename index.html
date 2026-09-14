@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mini Minecraft — Browser Block Game</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='6' fill='%236abe30'/><rect y='6' width='16' height='10' fill='%238a5f3c'/></svg>" />
+<link rel="stylesheet" href="style.css" />
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js"
+  }
+}
+</script>
+</head>
+<body>
+<div id="app">
+  <canvas id="game"></canvas>
+  <div id="crosshair">+</div>
+  <div id="overlay">
+    <div class="panel">
+      <h1>⛏️ Mini Minecraft</h1>
+      <p>Click to play. Explore, mine, and build.</p>
+      <ul>
+        <li><b>WASD</b> move · <b>Mouse</b> look · <b>Space</b> jump</li>
+        <li><b>Left click</b> break block · <b>Right click</b> place block</li>
+        <li><b>1–7</b> / wheel select block · <b>F</b> toggle fly · <b>R</b> reset world</li>
+      </ul>
+      <button id="playBtn">Play</button>
+    </div>
+  </div>
+  <div id="hotbar"></div>
+  <div id="info">
+    <span id="fps">60 fps</span> · <span id="pos">0, 0, 0</span> · <span id="mode">walk</span>
+  </div>
+  <div id="toast"></div>
+</div>
+<script type="module" src="main.js"></script>
+</body>
+</html>
