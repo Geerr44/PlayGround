@@ -1,0 +1,33 @@
+- generic [ref=f1e2]:
+  - generic: +
+  - generic [ref=f1e5]:
+    - heading "⛏️ Mini Minecraft" [level=1] [ref=f1e6]
+    - paragraph [ref=f1e7]: Click to play. Explore, mine, and build.
+    - list [ref=f1e8]:
+      - listitem [ref=f1e9]: WASD move · Mouse look · Space jump
+      - listitem [ref=f1e10]: Left click break block · Right click place block
+      - listitem [ref=f1e11]: 1–7 / wheel select block · F toggle fly · R reset world
+    - button "Play" [ref=f1e12] [cursor=pointer]
+  - generic [ref=f1e13]:
+    - generic [ref=f1e14] [cursor=pointer]:
+      - generic [ref=f1e15]: "1"
+      - generic [ref=f1e17]: Grass
+    - generic [ref=f1e18] [cursor=pointer]:
+      - generic [ref=f1e19]: "2"
+      - generic [ref=f1e21]: Dirt
+    - generic [ref=f1e22] [cursor=pointer]:
+      - generic [ref=f1e23]: "3"
+      - generic [ref=f1e25]: Stone
+    - generic [ref=f1e26] [cursor=pointer]:
+      - generic [ref=f1e27]: "4"
+      - generic [ref=f1e29]: Wood
+    - generic [ref=f1e30] [cursor=pointer]:
+      - generic [ref=f1e31]: "5"
+      - generic [ref=f1e33]: Leaves
+    - generic [ref=f1e34] [cursor=pointer]:
+      - generic [ref=f1e35]: "6"
+      - generic [ref=f1e37]: Sand
+    - generic [ref=f1e38] [cursor=pointer]:
+      - generic [ref=f1e39]: "7"
+      - generic [ref=f1e41]: Plank
+  - generic [ref=f1e42]: 60 fps · 24.5, 8.0, 24.5 · walk
