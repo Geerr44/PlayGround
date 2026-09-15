@@ -1,0 +1,26 @@
+- generic [ref=e2]:
+  - generic: +
+  - generic [ref=e13]:
+    - generic [ref=e14] [cursor=pointer]:
+      - generic [ref=e15]: "1"
+      - generic [ref=e17]: Grass
+    - generic [ref=e18] [cursor=pointer]:
+      - generic [ref=e19]: "2"
+      - generic [ref=e21]: Dirt
+    - generic [ref=e22] [cursor=pointer]:
+      - generic [ref=e23]: "3"
+      - generic [ref=e25]: Stone
+    - generic [ref=e26] [cursor=pointer]:
+      - generic [ref=e27]: "4"
+      - generic [ref=e29]: Wood
+    - generic [ref=e30] [cursor=pointer]:
+      - generic [ref=e31]: "5"
+      - generic [ref=e33]: Leaves
+    - generic [ref=e34] [cursor=pointer]:
+      - generic [ref=e35]: "6"
+      - generic [ref=e37]: Sand
+    - generic [ref=e38] [cursor=pointer]:
+      - generic [ref=e39]: "7"
+      - generic [ref=e41]: Plank
+  - generic [ref=e42]: 60 fps · 24.5, 6.0, 24.5 · walk
+  - generic: Pointer lock unavailable — drag to look
